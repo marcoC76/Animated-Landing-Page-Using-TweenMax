@@ -1,6 +1,6 @@
 @font-face {
     font-family: marca;
-    src: url(fonts/KELMSCOT.woff);
+    src: url(fonts/PrinceValiant.woff);
 }
 
 html, body {
@@ -199,7 +199,7 @@ html, body {
     position: fixed;
     width: 100%;
     height: 100vh;
-    background: #000;
+    background: rgb(15, 15, 15);
     z-index: 2;
     overflow: hidden;
 }
