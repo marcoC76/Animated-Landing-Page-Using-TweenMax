@@ -1,5 +1,9 @@
-html,
-body {
+@font-face {
+    font-family: marca;
+    src: url(fonts/KELMSCOT.woff);
+}
+
+html, body {
     margin: 0;
     padding: 0;
     width: 100%;
@@ -11,8 +15,7 @@ body {
     background: #121212;
 }
 
-.logo,
-.lang {
+.logo, .lang {
     position: absolute;
     text-transform: uppercase;
     font-size: 20px;
@@ -179,19 +182,15 @@ body {
 }
 
 @media (max-width: 990px) {
-    .container-left,
-    .container-right {
+    .container-left, .container-right {
         width: 100%;
         height: 100vh;
     }
-
     .container-right {
         top: 100vh;
         left: 0;
     }
-
-    .left-img-btn,
-    .social-media {
+    .left-img-btn, .social-media {
         display: none;
     }
 }
@@ -206,14 +205,14 @@ body {
 }
 
 .loader marquee {
-    opacity: 0.2;
-    text-transform: uppercase;
-    line-height: 180px;
+    opacity: 0.3;
+    /* text-transform: uppercase; */
+    line-height: 1.3em;
     margin: 0;
     padding: 0;
-    color: #646464;
-    font-size: 200px;
-    font-family: "Cinzel";
+    color: #a8a8a8;
+    font-size: 9em;
+    font-family: marca;
 }
 
 .loader .intro {
@@ -225,7 +224,7 @@ body {
 }
 
 .loader .intro h1 {
-    font-size: 124px;
+    font-size: 3em;
     text-transform: uppercase;
     font-weight: 200;
     color: #fff;
@@ -235,4 +234,10 @@ body {
 .intro-title .letter {
     display: inline-block;
     line-height: 1em;
+}
+
+@media only screen and (max-width: 768px) {
+    .loader .intro h1 {
+        font-size: 1.5em;
+    }
 }
