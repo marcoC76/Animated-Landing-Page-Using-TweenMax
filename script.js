@@ -34,20 +34,20 @@ TweenMax.to(".loader", 2.2, {
     ease: Expo.easeInOut
 });
 
-TweenMax.from(".logo", 2, {
-    delay: 6,
-    y: 10,
+TweenMax.from(".logo", 1, {
+    delay: 1,
+    y: 30,
     opacity: 0,
     ease: Expo.easeInOut
 });
 
 TweenMax.from(".lang", 2, {
-    delay: 6.1,
+    delay: 7,
     y: 10,
     opacity: 0,
     ease: Expo.easeInOut
 });
-
+/* 
 TweenMax.from(".left-img-cap", 2, {
     delay: 6.2,
     y: 10,
@@ -86,3 +86,4 @@ TweenMax.from(".right-bottom-text", 2, {
     opacity: 0,
     ease: Expo.easeInOut
 });
+ */
