@@ -90,6 +90,19 @@ html, body {
     }
 }
 
+#ediger{
+    clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+    background-size: 100%;
+    background-image: url(ediger.jpg);
+    transition: 0.5s ease-in;
+}
+#ediger:hover{
+    transition: 0.7s ease-in;
+    transform: scale(2);
+    
+
+}
+
 .left-img-cap {
     position: absolute;
     top: 20%;
